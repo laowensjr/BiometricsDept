@@ -24,7 +24,7 @@ The database class contains the credentials to connect to the database and the P
 
 # PYTHON SCRIPT
 
-The Python script I created with retrieve the Names and Repository IDs of the Most Starred Python projects via Github's API.
+The Python script I created will retrieve the Names and Repository IDs of the Most Starred Python projects via Github's API.
 
 Then the script will retrieve the Names and Repository IDs of the Most Starred Python projects that are stored in the SQL Database.
 They Both should match if the Database is truly being updated properly.
