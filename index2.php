@@ -35,7 +35,7 @@ $authCreds =  new PAT();
 // Initilize a cURL session to the Github API. Get the Most starred Repositories and sort them Descending. By default Github allows 30 records. There is an option to display more by using the per page parameter. 
   
 //$url = "https://api.github.com/search/repositories?q=stars:>1&sort=stars&order=desc";
-$url = "https://api.github.com/search/repositories?q=language:python";
+$url = "https://api.github.com/search/repositories?q=language:python&per_page=25";
 $ch = curl_init();
 
 //Set options to be used in the cURL request.
