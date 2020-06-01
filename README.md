@@ -6,7 +6,7 @@ This is the coding challenge given to me by Vanderbilt's Biometrics Dept
 Explanation of both are as follows:
 
 # PHP
-The PHP code retrieves the Repository ID, Name, Number of Stars, GitHub URL, Created Date, Last Push Date, and Description of 30 of the most starred Python Projects.
+The PHP code retrieves the Repository ID, Name, Number of Stars, GitHub URL, Created Date, Last Push Date, and Description of 25 of the most starred Python Projects.
 A live view can be seen at => https://datalyticsbi.com/star-repos/index2.php, I used Bootstrap for the webpage's layout.
 
 PHP's curl method was used to communicate with Github's API. There were other PHP wrappers out there you could use to connect to Github's API but what's the challenge in that, so I decided to create a new way to access the API via PHP Curl. It was a success!
